@@ -48,6 +48,8 @@ REVERB_APPS=default
 
 ## Como usar: adicionando um novo app (canal)
 
+> **Atalho:** existe uma skill do Claude Code (`.claude/skills/reverb-add-app`) que automatiza os passos abaixo — basta informar o nome do projeto e ela cadastra o slug, gera as credenciais e devolve o bloco `.env` pronto para o projeto cliente.
+
 Cada projeto que vai transmitir eventos por este servidor precisa de um slug próprio em `REVERB_APPS` e de suas credenciais dedicadas. Passo a passo:
 
 1. Escolha um slug em kebab-case para o novo projeto, por exemplo `crm` ou `loja-online`.
